@@ -12,7 +12,7 @@ respectivamente, e seus meios nas entradas "A0, A1 e A2" nessa mesma ordem.
 Na placa também foram colocados fios na entrada GND e 5V, uma para entrada negativa enquanto a outra para positiva.
 
 Depois de ter realizado a montagem do aparelho "físico" na mesa de trabalho no TinkerCad, a segunda parte da missão foi realizar, na parte de Blocos, o código que, de maneira exata, ligasse  o Led RGB e mudar
-a cor de iluminação. A fim de obter essa performance, foi necessário escolher os Blocos abaixo:
+a cor de iluminação. A fim de obter essa performance, foi necessário escolher os Blocos da imagem abaixo:
 
 <img width="1817" height="787" alt="image" src="https://github.com/user-attachments/assets/3401c29a-7c86-40c1-85f2-7e285a38d13a" />
 
