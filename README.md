@@ -16,7 +16,7 @@ a cor de iluminação. A fim de obter essa performance, foi necessário escolher
 
 <img width="1817" height="787" alt="image" src="https://github.com/user-attachments/assets/3401c29a-7c86-40c1-85f2-7e285a38d13a" />
 
-Concluindo, o problema foi resolvido com sucesso! Ademais, esse sistema foi de nível intermediário, pois o indivíduo que a fez não possui habilidades avançadas para área de códigos. Entretanto, foi uma atividade bem dinâmica, na qual fez com que ampliasse o conhecimento diminuindo algumas dificuldades na disciplina.
+Concluindo, o problema foi resolvido com sucesso! Ademais, esse sistema foi de nível intermediário, pois o indivíduo que a fez não possui habilidades avançadas para área de códigos. Entretanto, foi uma atividade bem dinâmica, na qual fez com que ampliasse o conhecimento e diminuindo algumas dificuldades na disciplina.
 
 
 
