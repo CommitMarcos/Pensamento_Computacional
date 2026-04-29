@@ -1,0 +1,24 @@
+A montagem física priorizou a organização e o compartilhamento eficiente de energia. 
+Utilize o pino 5V como barramento comum para alimentar tanto os servomotores quanto os quatro botões. 
+A distribuição dos LEDs nos pinos digitais seguiu o seguinte mapeamento:
+
+* Lado Esquerdo: LED Vermelho (Pino 3) | LED Verde (Pino 5)
+* Lado Direito: LED Vermelho (Pino 10) | LED Verde (Pino 11)
+* Indicadores de Estado: Amarelo (Pino 6 - Movimentação) | Azul (Pino 9 - Abertura Total)
+
+No código, a inteligência do sistema foi estruturada através de variáveis de estado (flags). 
+Além de mapear os quatro botões, criei variáveis numéricas para monitorar o status de cada portão: o valor 1 indica que o 
+portão está aberto, enquanto o 0 sinaliza que ele permanece fechado.
+As regras de automação foram definidas da seguinte forma:
+
+1. Comandos Individuais (Botões 1 e 2): Ao acionar o Botão 1, apenas o motor esquerdo abre, ativando seu LED verde;
+o mesmo ocorre com o Botão 2 para o lado direito. Enquanto fechados, os respectivos LEDs vermelhos permanecem acesos.
+
+2. Sinalização de Movimento: Sempre que qualquer motor estiver em curso (transição), 
+o LED amarelo é ativado para alertar sobre a movimentação.
+
+3. Abertura Simultânea (Botão 3): Este comando força a abertura de ambos os lados. O LED azul funciona como um indicador de "Abertura Total", 
+acendendo sempre que os dois motores estiverem simultaneamente abertos (seja via botão 3 ou acionamento individual).
+
+4. Fechamento Geral (Botão 4): Funciona como um comando de "Reset", fechando os dois servomotores de imediato.
+Neste estado, apenas os LEDs vermelhos ficam ativos, apagando-se todas as outras cores.
