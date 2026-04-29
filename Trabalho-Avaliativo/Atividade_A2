@@ -1,0 +1,40 @@
+Para desenvolver a lógica do sistema de sinalização inteligente da máquina industrial, precisa-se realizar uma série de processos com que faça ela realizar diferentes modos de funcionamento. A fim de ter esse resultado, estará abaixo perguntas relacionadas a atividade que farão com que consiga se questionar e encontrar a solução desse.
+
+
+1) Identifique as entradas e saídas do sistema 
+
+ Nesse problema, temos componentes entradas e saídas no sistema.
+
+Entradas:
+Botão 1 - Sinal digital de modo NORMAL;
+Botão 2- Sinal digital de modo ATENÇÃO;
+Botão 3 - Sinal digital de modo CRÍTICO;
+Potenciometro - Sinal analógico que indica a intensidade do sistema (0 e 1023).
+
+Saidas:
+LED RGB - Definirá as cores verde, amarelo e vermelho e suas respectivas intensidades.
+
+
+2) Apresente todos os componentes do sistema e para que eles servem
+
+Botões - Servem para definir no processador da máquina o seu modo entre normal, atenção e crítico;
+LED RGB - Parte responsável pela definição das cores verde, amarelo e vermelho;
+Potenciometro - Componente que indica a intensidade das cores disponíveis.
+
+3) Apresente as regras de funcionamento a serem implementadas
+
+Trocar de estado sempre que o BOTÃO for pressionado;
+Mesmo que dois botões sejam apertados (ex.: Verde + Vermelho), o sistema sempre dará preferência ao nível de maior  intensidade;
+O valor que o Potenciômetro exibe sempre mostrará o brilho de intensidade da cor escolhida.
+
+4) Explique como você utilizaria estruturas if para controlar o sistema
+SE botão Vermelho pressionado:
+Acenda o Vermelho com o brilho do potenciômetro.
+SENÃO, SE botão Amarelo pressionado:
+Acenda o Amarelo com o brilho do potenciômetro.
+SENÃO, SE botão Verde pressionado:
+Acenda o Verde com o brilho do potenciômetro.
+SENÃO (se nenhum estiver apertado):
+Apague o LED (ou mantenha o estado anterior).
+
+Assim que funcionará a utilização do if nesse problemna.
